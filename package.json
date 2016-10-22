@@ -16,7 +16,8 @@
     "webpack-dev-server": "^1.16.2"
   },
   "scripts": {
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC"
