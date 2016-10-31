@@ -9,6 +9,7 @@ function ConfirmBattle (props) {
 
 ConfirmBattle.PropTypes = {
   isLoading: PropTypes.bool.isRequired,
+  onInitiateBattle: PropTypes.func.isRequired,
   playersInfo: PropTypes.array.isRequired,
 }
 
