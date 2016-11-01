@@ -4,10 +4,10 @@ var githubHelpers = require('../utils/githubHelpers');
 
 var ResultsContainer = React.createClass({
   getInitialState: function () {
-    return (
+    return {
       isLoading: true,
       scores: []
-    )
+    }
   },
   componentDidMount: function () {
     githubHelpers.battle(this.props.location.state.playersInfo)
@@ -24,7 +24,7 @@ var ResultsContainer = React.createClass({
         isLoading={this.state.isLoading}
         playersInfo={this.props.location.state.playersInfo}
         scores={this.state.scores} />
-    );
+    )
   }
 
 });
