@@ -7,6 +7,8 @@ This application was developed with React. Users can enter their Github username
 * React
 * Node.js, NPM
 * Javascript, JSX
-* Axios
+* Axios http requests
 * Github API
+
+You can download the Zip file or fork and clone the repo. You will need to be familiar with the React framework, Node.js and NPM to run the application locally. 
 
